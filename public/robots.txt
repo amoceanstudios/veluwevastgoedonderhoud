@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.veluwe-vastgoedonderhoud.nl/sitemap.xml

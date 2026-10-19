@@ -1,1 +1,14 @@
-{"name":"veluwe-vastgoedonderhoud","version":"1.0.0","private":true,"scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","preview":"vite preview --host 0.0.0.0"},"devDependencies":{"vite":"^6.4.1"},"type":"module"}
+{
+  "name": "veluwe-vastgoedonderhoud",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/generate-pages.mjs && vite --host 0.0.0.0",
+    "build": "node scripts/generate-pages.mjs && vite build && node scripts/package-netlify.mjs",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.4.1"
+  },
+  "type": "module"
+}
